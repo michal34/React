@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "name": "Telefon komórkowy Extra",
+        "desc": "Bardzo trwałe urządzenie!",
+        "type": "SMARTFON",
+        "price": 1199,
+        "promoPrice": 1099,
+        "currency": "PLN",
+        "placeInList": 1
+    },
+    {
+        "id": 2,
+        "name": "Telefon komórkowy popularny 1",
+        "desc": "Takie sobie urządzenie",
+        "type": "SMARTFON",
+        "price": 499,
+        "promoPrice": null,
+        "currency": "PLN",
+        "placeInList": 1
+    },
+    {
+        "id": 3,
+        "name": "Telefon komórkowy popularny 2",
+        "desc": "Takie sobie urządzenie",
+        "type": "SMARTFON",
+        "price": 599,
+        "promoPrice": null,
+        "currency": "PLN",
+        "placeInList": 1
+    },
+    {
+        "id": 4,
+        "name": "Telefon komórkowy dla dzieci",
+        "desc": "Telefon zabawkowy",
+        "type": "SMARTFON",
+        "price": 99,
+        "promoPrice": null,
+        "currency": "PLN",
+        "placeInList": 1
+    },
+    {
+        "id": 5,
+        "name": "Dell Inspiron",
+        "desc": "Fajny laptop do pracy",
+        "type": "LAPTOP",
+        "price": 2999,
+        "promoPrice": 2699,
+        "currency": "PLN",
+        "placeInList": 1
+    },
+    {
+        "id": 6,
+        "name": "Dell Vostro",
+        "desc": "Ultra mocny laptop do gier",
+        "type": "LAPTOP",
+        "price": 4999,
+        "promoPrice": 4499,
+        "currency": "PLN",
+        "placeInList": 1
+    },
+    {
+        "id": 7,
+        "name": "HP Workstation",
+        "desc": "Kolejny laptop do pracy",
+        "type": "LAPTOP",
+        "price": 6999,
+        "promoPrice": 6299,
+        "currency": "PLN",
+        "placeInList": 1
+    },
+    {
+        "id": 8,
+        "name": "Asus Omega",
+        "desc": "Laptop dla każdego",
+        "type": "LAPTOP",
+        "price": 1999,
+        "promoPrice": null,
+        "currency": "PLN",
+        "placeInList": 1
+    },
+    {
+        "id": 9,
+        "name": "Huwawei TAB",
+        "desc": "Tablet do gier",
+        "type": "TABLET",
+        "price": 499,
+        "promoPrice": null,
+        "currency": "PLN",
+        "placeInList": 1
+    },
+    {
+        "id": 10,
+        "name": "Samsung SuperScreen",
+        "desc": "Ekran dla grafików",
+        "type": "MONITOR",
+        "price": 1599,
+        "promoPrice": 1499,
+        "currency": "PLN",
+        "placeInList": 1
+    },
+    {
+        "id": 11,
+        "name": "LG smart screen",
+        "desc": "Ekran ekonomiczny",
+        "type": "MONITOR",
+        "price": 599,
+        "promoPrice": 499,
+        "currency": "PLN",
+        "placeInList": 1
+    }
+]

@@ -1,0 +1,84 @@
+.cart-container {
+    position: relative;
+
+    .cart {
+        padding: 10px;
+        background: white;
+        box-sizing: border-box;
+        border-radius: 50%;
+        box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.49);
+        -webkit-box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.49);
+        width: 80px;
+        max-height: 80px;
+        display: flex;
+
+        &:hover {
+            cursor: pointer;
+            background: #26b34c;
+        }
+
+        img {
+            color: #1b1b1b;
+            height: 40px;
+            width: 40px;
+            margin-top: 6px;
+        }
+        h2 {
+            margin-left: -6px;
+        }
+    }
+
+    .cart-content {
+        position: absolute;
+        top: 70px;
+        background: white;
+        padding: 20px;
+        right: 20px;
+        width: 430px;
+        -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+        -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+        box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+        z-index: 999;
+        border-radius: 20px;
+        .empty-cart {
+            text-align: center;
+            h1 {
+                color: black;
+            }
+        }
+        .product-in-cart {
+            display: flex;
+            .buttonRemoveProduct {
+                background: red;
+                color:#ffffff;
+                margin-left: 16px;
+                margin-top: 16px;
+                border-radius: 10px;
+                outline: none;
+                border: 1px solid grey;
+                height: 24px;
+                width: 54px;
+                
+                &:hover {
+                    background: rgb(180, 0, 0);
+                    cursor: pointer;
+                }
+            }
+        }
+        .buttonRemoveAll {
+            background: red;
+            color:#ffffff;
+            border-radius: 20px;
+            border: 1px solid grey;
+            outline: none;
+            font-size: 14px;
+            padding: 6px 18px;
+            margin-top: 16px;
+
+            &:hover {
+                background: rgb(180, 0, 0);
+                cursor: pointer;
+            }
+        }
+    }
+}
