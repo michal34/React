@@ -1,0 +1,12 @@
+@import './../../colors';
+
+body {
+    cursor: default;
+}
+
+.App-timer {
+    text-align: center;
+    .timer {
+        font-size: 30px;
+    }
+}

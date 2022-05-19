@@ -1,0 +1,26 @@
+@import './../../colors';
+
+body {
+    cursor: default;
+}
+
+.App-header {
+    background-color: $headerBackground;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    .logo {
+        font-weight: bold;
+        font-size: 32px;
+    }
+    .info {
+        &--1 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        &--2 {
+            font-size: 14px;
+        }
+    }
+}

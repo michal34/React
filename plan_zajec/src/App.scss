@@ -1,0 +1,34 @@
+@import './colors';
+
+.App {
+    .columns {
+        display: flex;
+        justify-content: space-between;
+        .column {
+            padding: 20px;
+            border: 1px solid $borderGrey;
+            width: 100%;
+            margin: 10px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .App-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .columns {
+      flex-direction: column;
+      .column {
+          max-width: 90%;
+      }
+      .App-hours {
+          text-align: center;
+      }
+      .App-subjects {
+        text-align: center;
+      }
+    }
+  }
